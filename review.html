@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>   
+    <style>
+        #heading{
+            text-align: center;
+            background-repeat: no-repeat;
+            background-image : url(payment.jpg) ;
+            background-position: center;
+            background-color: aquamarine;
+            backface-visibility: var(2%);
+            
+            
+        }
+        button:hover {
+            padding: 0%;
+            
+            
+        }
+        
+    </style>      
+</head>
+<body id="heading">
+    <fieldset style=" margin-left: 20%; margin-right: 20%; border-radius: 30px; border-color: red;">
+        <legend><h1 style="background-color: burlywood; border-radius: 20px; border-style:double ; border-color: rgb(220, 25, 87);border-width: 2%;" >PAYMENT FORM</h1></legend>
+<br>
+<br>
+<label for=""><h2><u>CONTACT  DETAILS </u></h2></label><br><br>
+<label for="Username"><b>Enter  your  name :  </b><input type="text" style="border-radius: 20px;border-color:crimson; text-decoration-color: darkslategray; text-align: center;" placeholder="Username"></label>
+<br>
+<br>
+
+<b>Gender</b><br>
+
+<p><b>Male  : </b><input type="radio" style="border-radius: 20px" name="gender" value="male" id="male">
+<b>Female  : </b><input type="radio"style="border-radius: 20px" name="gender" value="female" id="female"></p>
+<br>
+<label for="email"><b>Enter  email  id   :  </b><input type="email" style="border-radius: 20px;border-color:crimson; text-decoration-color: darkslategray; text-align: center;" placeholder="Email id"></label>
+<br>
+<br>
+<label for="number"><b>Enter  mobile  number   :  </b><input type="number" style="border-radius: 20px;border-color: crimson; text-decoration-color: darkslategray; text-align: center;" placeholder="Mobile No."></label><br>
+<br>
+<b style="margin-right: 25%;">Address  :  </b><br>
+
+
+<label for="Address"><textarea name="Address"  cols="30" rows="10" style="border-radius: 20px;border-color:crimson; text-decoration-color: darkslategray; " placeholder="Type.."></textarea></label>
+<br>
+<br><label for="pincode"><b>Pincode  : </b><input type="number" style="border-radius: 20px;border-color: crimson; text-decoration-color: darkslategray; text-align: center;"></label>
+<br>
+<br>
+<label for=""><h2><u>PAYMENT  DETAILS</u></h2></label>
+<br>
+<p><b>Card Type : </b>
+<select name="cardtype" id="cardtype">
+    <option value="">--Select a card type--</option>
+    <option value="visa">Visa</option>
+    <option value="mastercard">Mastercard</option>
+    <option value="rupay">Rupay</option>
+</select></p><br>
+
+
+<label for="cardnumber"><b>Card Number  : </b> <input type="number"  style="border-radius: 20px;border-color:crimson; text-decoration-color: darkslategray; text-align: center;" name="cardnumber" id="cardnumber"></label><br><br>
+<b>Expiration Date :</b>
+<input type="datetime-local"  style="border-radius: 20px;border-color:crimson; text-decoration-color: darkslategray; text-align: center;" name="date" id="date"><br><br>
+<label for="cvv"><b>CVV  :</b> <input type="password" name="cvv"  style="border-radius: 20px;border-color:crimson; text-decoration-color: darkslategray; text-align: center;" id="cvv"></label><br><br>
+<button style="background-color: rgb(227, 14, 14); border-radius: 20px;" ><input type="submit"  style="border-radius: 20px;border-color:crimson; text-decoration-color: darkslategray; text-align: center; background-color: lightseagreen;" value="Submit" id="submit"></button><br></p>
+
+</fieldset>
+
+
+
+</body>
+</html>
